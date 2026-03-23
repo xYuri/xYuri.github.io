@@ -1,9 +1,9 @@
 const CACHE_VERSION = 'cache-v1';
 const ASSETS_TO_CACHE = [
-	'/',
-	// '/index.html',
-	'/README.md',
-	// '/offline.html',
+	'./',
+	// './index.html',
+	'./README.md',
+	// './offline.html',
 ];
 
 
@@ -32,8 +32,8 @@ self.addEventListener('fetch', (event) => {
 
 	// Normalization: Map /index.html requests to the root '/' cache key
 	switch (url.pathname) {
-		case '/index.html': requestKey = '/'; break;
-		case '/xAgent/index.html': requestKey = '/xAgent/'; break;
+		case './index.html': requestKey = './'; break;
+		// case '/xAgent/index.html': requestKey = '/xAgent/'; break;
 	}
 
 	event.respondWith(
@@ -61,7 +61,7 @@ self.addEventListener('fetch', (event) => {
 		}).catch(() => {
 			// 3. Absolute fallback for navigation if both fail
 			if (event.request.mode === 'navigate') {
-				return caches.match('/offline.html');
+				return caches.match('./offline.html');
 			}
 		})
 	);
