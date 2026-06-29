@@ -8,5 +8,5 @@
 
 -----
 
-## About xYuri (Yuri A. Wolf)
+### About xYuri (Yuri A. Wolf)
 [xAgent](https://github.com/xYuri/xYuri/README.md)
