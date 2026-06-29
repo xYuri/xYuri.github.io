@@ -8,4 +8,4 @@
 
 -----
 
-### About [xYuri (Yuri A. Wolf)](https://github.com/xYuri/xYuri/README.md)
+### About [xYuri (Yuri A. Wolf)](https://xYuri.github.io/xYuri)
