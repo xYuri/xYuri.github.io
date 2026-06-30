@@ -6,3 +6,6 @@ sass:
   style: compressed
 
 show_downloads: false
+
+include:
+  - xYuri/README.md
