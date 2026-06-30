@@ -8,4 +8,4 @@ sass:
 show_downloads: false
 
 include:
-  - xYuri/README.md
+  - Axis-App/ReleaseNotes
