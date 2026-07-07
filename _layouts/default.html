@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+ <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,9 +29,9 @@
     {% include head-custom.html %}
 
 	{% seo %}
-  </head>
+ </head>
 
-  <body>
+ <body>
 
     <header>
       <div class="container">
@@ -53,11 +53,12 @@
     </header>
 
     <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
+		<section id="main_content">
+			{{ content }}
+		</section>
+
+		{% include footer.html %}
     </div>
-	
-	{% include footer.html %}
+
   </body>
 </html>
