@@ -5,7 +5,12 @@ plugins:
 sass:
   style: compressed
 
+
+
 show_downloads: false
+show_repo_view: false
+
+
 
 include:
   - Axis-App/releaseNotes

@@ -1,5 +1,5 @@
 # Axis
-*Your **all-in-one** life companion.*
+	*Your **all-in-one** life companion.*
 
 Manage your daily tasks, track your health, and monitor your finances — all from a single, beautifully designed app.
 
