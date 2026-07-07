@@ -7,7 +7,11 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 *<ins>**Axis**</ins> – Everything you need, all in one place.*
 
+
+
+<br/>
 -----
+<br/>
 
 
 
@@ -21,7 +25,9 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 
 
+<br/>
 -----
+<br/>
 
 
 
@@ -56,16 +62,19 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 
 
+<br/>
 -----
+<br/>
 
 
 
-### Download Latest Stable Release: [Axis - Latest](https://github.com/xYuri/Axis-App/releases/latest)
-### Latest Release Notes: [v0.1.0](https://github.com/xYuri/Axis-App/blob/main/releaseNotes/v0.1.0.md)
+### Latest Stable Release (v0.1.0): [[Download](https://github.com/xYuri/Axis-App/releases/latest) | [Release Notes](https://github.com/xYuri/Axis-App/blob/main/releaseNotes/v0.1.0.md)]
 
 
 
+<br/>
 -----
+<br/>
 
 ## Axis Releases
 
