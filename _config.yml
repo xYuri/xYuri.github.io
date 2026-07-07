@@ -8,4 +8,11 @@ sass:
 show_downloads: false
 
 include:
-  - Axis-App/ReleaseNotes
+  - Axis-App/releaseNotes
+
+collections:
+  axis:
+    output: true
+    permalink: /Axis/:path
+
+

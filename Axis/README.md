@@ -69,11 +69,13 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 ## Release Notes
 
+{% assign notes = site.axis | where_exp: "item", "item.path contains 'releaseNotes/'" | sort: "path" | reverse %}
+
 <ul>
-  {% for file in site.static_files %}
-    {% if file.path contains "/Axis/releaseNotes/" %}
-      <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>
-    {% endif %}
+  {% for file in notes %}
+    <li>
+      <a href="{{ file.url | relative_url }}">{{ file.title | default: file.name }}</a>
+    </li>
   {% endfor %}
 </ul>
 
