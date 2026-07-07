@@ -6,14 +6,13 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 **Axis** brings together **Todos** & **Tasks**, **Health** tracking, **Financial** tracking, and **Personalization** tools, making it effortless to keep **Track** of everything, stay **Organized**, and in **Control**.
 
 *<ins>**Axis**</ins> – Everything you need, all in one place.*
-
-
-
 <br/>
+
+
+
 -----
+
 <br/>
-
-
 
 ## Platforms:
 
@@ -23,13 +22,11 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 - Mobile: Android, iOS (Web)
 - Desktop: (Windows & Linux & MAC)
 
-
-
 <br/>
+
 -----
+
 <br/>
-
-
 
 ## Features:
 - 📃 Todo List
@@ -60,20 +57,18 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 - 💧 Period Tracker
 - ☁️ Online backup
 
-
-
 <br/>
+
 -----
+
 <br/>
-
-
 
 ### Latest Stable Release (v0.1.0): [[Download](https://github.com/xYuri/Axis-App/releases/latest) | [Release Notes](https://github.com/xYuri/Axis-App/blob/main/releaseNotes/v0.1.0.md)]
 
-
-
 <br/>
+
 -----
+
 <br/>
 
 ## Axis Releases
@@ -87,3 +82,7 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 {% endfor %}
 
 
+
+
+
+<br/><br/><br/>
