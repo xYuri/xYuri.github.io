@@ -81,7 +81,3 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 {% endfor %}
 
 
-
-
-
-<br/><br/><br/>
