@@ -6,9 +6,8 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 **Axis** brings together **Todos** & **Tasks**, **Health** tracking, **Financial** tracking, and **Personalization** tools, making it effortless to keep **Track** of everything, stay **Organized**, and in **Control**.
 
 *<ins>**Axis**</ins> – Everything you need, all in one place.*
+
 <br/>
-
-
 
 -----
 
