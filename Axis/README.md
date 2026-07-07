@@ -73,7 +73,7 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 {% for file in notes %}
 	{% assign version_tag = file.basename %}
-### v{{ version_tag }} - [ [Release Notes]({{ file.url | relative_url }}) | [Download](https://github.com/xYuri/Axis-App/releases/tag/{{ version_tag }}) ]
+### v{{ file.basename }} - [[Release Notes]({{ file.url | relative_url }})|[Download](https://github.com/xYuri/Axis-App/releases/tag/{{ file.basename }})]
 
 {% endfor %}
 
