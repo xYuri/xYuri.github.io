@@ -71,11 +71,11 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 {% assign notes = site.axis | where_exp: "item", "item.path contains 'releaseNotes/'" | sort: "path" | reverse %}
 
-<ul>
-  {% for file in notes %}
-    <li>
-      <a href="{{ file.url | relative_url }}">{{ file.title | default: file.name }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for file in notes %}
+	{% assign version_tag = file.name | remove: ".md" %}
+### v{{ version_tag }}
+[[Release Notes]({{ file.url | relative_url }})] - [[Download](https://github.com/xYuri/Axis-App/releases/tag/{{ version_tag }})]
+
+{% endfor %}
+
 
