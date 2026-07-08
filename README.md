@@ -1,3 +1,6 @@
+---
+title: xYuri
+---
 
 [Axis App](https://xyuri.github.io/Axis)
 

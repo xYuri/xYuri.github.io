@@ -1,3 +1,8 @@
+---
+breadcrumb: "Axis/"
+title: Axis
+---
+
 # Axis
 *Your **all-in-one** life companion.*
 
