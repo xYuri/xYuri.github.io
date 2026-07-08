@@ -4,9 +4,12 @@ permalink: /
 title: "xYuri"
 ---
 
-[Axis App](https://xyuri.github.io/Axis)
+## Projects:
 
-[xAgent](https://xyuri.github.io/xAgent)
+- [Axis App](https://xyuri.github.io/Axis)
+
+- [xAgent](https://xyuri.github.io/xAgent)
+
 
 
 <br/>
