@@ -1,5 +1,6 @@
 ---
-title: xYuri
+layout: default
+title: "xYuri"
 ---
 
 [Axis App](https://xyuri.github.io/Axis)

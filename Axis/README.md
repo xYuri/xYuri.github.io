@@ -1,6 +1,6 @@
 ---
-breadcrumb: "Axis/"
-title: Axis
+layout: default
+title: "Axis"
 ---
 
 # Axis
