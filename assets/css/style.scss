@@ -4,4 +4,8 @@
 @import "{{ site.theme }}";
 
 breadcrumb {
+	text-decoration: none;
+}
+breadcrumb.a{
+	text-decoration: none;
 }
