@@ -1,5 +1,7 @@
 ---
 layout: default
+permalink: /Axis/
+title: "Axis"
 ---
 
 [Axis App](https://xyuri.github.io/Axis)
