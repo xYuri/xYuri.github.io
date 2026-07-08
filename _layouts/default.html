@@ -41,8 +41,7 @@
 				{% assign segs = page.breadcrumb | split: '/' %}
 				{% assign seg_url = '' %}
 				{% for seg in segs %}
-					{% if seg == "" %}
-						/
+					{% if seg == "" %}/
 					{% else %}
 						{% assign seg_url = seg_url | append: '/' | append: seg %}
 						/<a id="a-title" href="{{ seg_url | relative_url }}">{{ seg }}</a>
