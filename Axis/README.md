@@ -69,7 +69,7 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 <br/>
 
-### Latest Stable Release (v0.1.0): [[Download](https://github.com/xYuri/Axis-App/releases/latest) | [Release Notes](https://github.com/xYuri/Axis-App/blob/main/release/v0.1.0.md)]
+### Latest Stable Release (v0.1.0): [[Download](https://github.com/xYuri/Axis-App/releases/latest)\|[Release Notes](https://github.com/xYuri/Axis-App/blob/main/release/v0.1.0.md)]
 
 <br/>
 
