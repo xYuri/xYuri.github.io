@@ -36,7 +36,7 @@
     <header>
       <div class="container">
 		<h1><breadcrumb>
-			<a id="a-title" href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>			
+			<a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>			
 			{%- if page.breadcrumb -%}
 				{%- assign segs = page.breadcrumb | split: '/' -%}
 				{%- assign seg_url = '' -%}
@@ -45,7 +45,7 @@
 						/
 					{%- else -%}
 						{%- assign seg_url = seg_url | append: '/' | append: seg -%}
-						/<a class="a-title" href="{{ seg_url | relative_url }}">{{ seg }}</a>
+						/<a href="{{ seg_url | relative_url }}">{{ seg }}</a>
 					{%- endif -%}
 				{%- endfor -%}
 			{%- endif -%}
