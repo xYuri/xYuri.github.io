@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /
-title: "xYuri"
+permalink: /Axis/
+title: "Axis"
 ---
 
 # Axis

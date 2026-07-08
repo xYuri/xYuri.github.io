@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /Axis/
-title: "Axis"
+permalink: /
+title: "xYuri"
 ---
 
 [Axis App](https://xyuri.github.io/Axis)
