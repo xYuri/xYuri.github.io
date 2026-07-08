@@ -36,7 +36,19 @@
     <header>
       <div class="container">
 		<h1>
-			<a id="a-title" href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
+			./<a id="a-title" href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>			
+			{% if page.breadcrumb %}
+				{% assign segs = page.breadcrumb | split: '/' %}
+				{% assign seg_url = '' %}
+				{% for seg in segs %}
+					{% if seg == "" %}
+						/
+					{% else %}
+						{% assign seg_url = seg_url | append: '/' | append: seg %}
+						<a href="{{ seg_url | relative_url }}">{{ seg }}</a>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
 		</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
