@@ -69,7 +69,7 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 <br/>
 
-### Latest Stable Release (v0.1.0): [[Download](https://github.com/xYuri/Axis-App/releases/latest)\|[Release Notes](https://github.com/xYuri/Axis-App/blob/main/release/v0.1.0.md)]
+### Latest Stable Release (v0.1.0): [[Download](https://github.com/xYuri/Axis-App/releases/latest)\|[Release Notes](https://xYuri.github.io/Axis/releases/0.1.0)]
 
 <br/>
 
@@ -77,14 +77,14 @@ Manage your daily tasks, track your health, and monitor your finances — all fr
 
 <br/>
 
-## Axis Releases
+## [Axis Releases](https://xYuri.github.io/Axis/releases):
 
-{% assign notes = site.axis | where_exp: "item", "item.path contains 'release/'" | sort: "path" | reverse %}
+{% assign releases = site.axis | where_exp: "item", "item.path contains 'releases/'" | sort: "path" | reverse %}
 
-{% for file in notes %}
+{% for file in releases limit: 10 %}
 	{% assign filename = file.path | split: "/" | last %}
 	{% assign version_tag = filename | remove: ".md" %}
-- v{{ version_tag }} - [[Release Notes]({{ file.url | relative_url }})\|[Download](https://github.com/xYuri/Axis-App/releases/tag/{{ version_tag }})]
+	- v{{ version_tag }} - [[Release Notes]({{ file.url | relative_url }})\|[Download](https://github.com/xYuri/Axis-App/releases/tag/{{ version_tag }})]
 {% endfor %}
 
 
