@@ -45,7 +45,7 @@
 						/
 					{% else %}
 						{% assign seg_url = seg_url | append: '/' | append: seg %}
-						<a href="{{ seg_url | relative_url }}">{{ seg }}</a>
+						/<a id="a-title" href="{{ seg_url | relative_url }}">{{ seg }}</a>
 					{% endif %}
 				{% endfor %}
 			{% endif %}
