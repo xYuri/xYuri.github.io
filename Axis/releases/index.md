@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /Axis/releases/
+breadcrumbs: "Axis/releases/"
 title: "Axis Releases"
-breadcrumb: "Axis/releases/"
 ---
 
 ## Axis Releases:

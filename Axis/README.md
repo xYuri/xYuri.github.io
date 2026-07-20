@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /Axis/
+breadcrumbs: "Axis/"
 title: "Axis"
-breadcrumb: "Axis/"
 ---
 
 # Axis
